@@ -1,12 +1,13 @@
 package mastermind;
-
+import java.util.Scanner;
 public class MasterMind
 {
 
     public static void main(String[] args)
     {
 	 
-	  String zwart = "zw";
+
+
 	  String wit = "wi";
 	  String geel = "ge";
 	  String paars = "pa";
@@ -15,6 +16,7 @@ public class MasterMind
 	  String oranje = "or";
 	  String rood = "ro";
 	  
+	  Scanner sc = new Scanner(System.in) ;
 	  
 	  String codebreaker1_1 = "";
 	  String codebreaker1_2 = "";  
@@ -105,7 +107,7 @@ public class MasterMind
 	  String code4 = "";
 	  
 	  
-	  
+	  sc.close() ; 
 	  
                
 	
