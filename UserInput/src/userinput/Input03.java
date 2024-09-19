@@ -1,5 +1,5 @@
 package userinput;
-
+import java.util.Scanner;
 class Input03 {
 
     public static void main(String[] args) {
