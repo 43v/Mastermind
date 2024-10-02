@@ -10,6 +10,7 @@ public class MasterMind {
 		final String zwart = "zw";
 		final String wit = "wi";
 		final String geel = "ge";
+		
 		final String paars = "pa";
 		final String groen = "gr";
 		final String blauw = "bl";
@@ -43,8 +44,38 @@ public class MasterMind {
 		String codemaker1_4 = "";
 
 		if (codebreaker1_1.equals(code1)) {
+			codemaker1_1 = zwart;
+		}
+		
+		else if (codebreaker1_1.equals(code1)) {
 			codemaker1_1 = wit;
 		}
+		
+		if (codebreaker1_2.equals(code1)) {
+			codemaker1_1 = zwart;
+		}
+		
+		else if (codebreaker1_2.equals(code1)) {
+			codemaker1_1 = wit;
+		}
+		
+		if (codebreaker1_3.equals(code1)) {
+			codemaker1_1 = zwart;
+		}
+		
+		else if (codebreaker1_3.equals(code1)) {
+			codemaker1_1 = wit;
+		}
+		
+		if (codebreaker1_4.equals(code1)) {
+			codemaker1_1 = zwart;
+		}
+		
+		else if (codebreaker1_4.equals(code1)) {
+			codemaker1_1 = wit;
+		}
+		
+	
 		
 		
 		
